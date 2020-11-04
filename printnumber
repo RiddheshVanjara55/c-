@@ -1,11 +1,11 @@
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
-void main()
+using namespace std;
+int main()
 {
- clrscr();
  int a;
- cout<<"Enter the number:"<<endl;
+ cout<<"Enter the number:";
  cin>>a;
- cout<<"The number enter by user is:"<<endl<<a;
+ cout<<"The number enter by user is:"<<a;
  getch();
 }
